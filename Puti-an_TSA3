@@ -1,0 +1,230 @@
+<html>
+<head>
+    <meta charset = "UTD-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1">
+    <title>POKEMON</title>
+</head>
+<body>
+<center>
+<form action = "">
+
+<label for = "nd">National Dex:</label>
+<input type="number" min = "0" id = "nd" name = "national dex"> <br><br>
+
+<input type = "radio" name = "Generation" id = "g1">
+<label for ="g1">Generation 1</label>
+
+<input type = "radio" name = "Generation" id = "g2">
+<label for ="g2">Generation 2</label>
+
+<input type = "radio" name = "Generation" id = "g3">
+<label for ="g3">Generation 3</label>
+
+<input type = "radio" name = "Generation" id = "g4">
+<label for ="g4">Generation 4</label>
+
+<input type = "radio" name = "Generation" id = "g5">
+<label for ="g5">Generation 5</label>
+
+<input type = "radio" name = "Generation" id = "g6">
+<label for ="g6">Generation 6</label>
+
+<input type = "radio" name = "Generation" id = "g7">
+<label for ="g7">Generation 7</label>
+
+<input type = "radio" name = "Generation" id = "g8">
+<label for ="g8">Generation 8</label>
+
+<input type = "radio" name = "Generation" id = "g9">
+<label for ="g9">Generation 9</label>
+
+<br><br><label for ="poke">Pokemon Name:</label>
+<input type = "text" min ="0" id ="poke" name = "pokemon name"> <br><br>
+
+Input Image: <input type = "file" name = "image:"> <br><br>
+
+<label for = "t1">Type 1: </label>
+<input type="number" min = "0" id = "t1" name = "Type 1"> 
+<label for = "t2">Type 2: </label>
+<input type="number" min = "0" id = "t2" name = "Type 2"> <br><br>
+
+<label for = "ev">Evolves From:</label>
+<input type="number" min = "0" id = "ev" name = "Evolves From"> 
+<label for = "ef">Evolves To:</label>
+<input type="number" min = "0" id = "ef" name = "Evolves To"> <br><br>
+
+<label for = "Nick">Nickname:</label>
+<input type="number" min = "0" id = "nick" name = "Nickname"> <br><br>
+
+<label for = "date">Birthday:</label>
+<input type ="date" id = "date" name = "date"> <br><br>
+
+<input type = "submit" value = "Submit"> <br><br>
+
+<table border = "50">
+    <tr>
+        
+        <th>National Dex</th>
+        <th>Generation</th>
+        <th>Pokemon Name</th>
+        <th>Image </th>
+        <th>Type 1</th>
+        <th>Type 2</th>
+        <th>Evolves From</th>
+        <th>Evolves To</th>
+        <th>Nickname</th>
+        <th>Birthday</th>
+        
+    </tr>  
+
+    <tr>
+        <td><center>0</center></td>
+        <td><center>Z</center></td>
+        <td><center>%#&!@^#(!#$&!</center></td>
+        <td><center><img src ="https://scontent-mnl1-2.xx.fbcdn.net/v/t39.30808-6/349054388_147128275015725_5664807896963572940_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=RmzXC04l-p8Q7kNvgEbUnol&_nc_ht=scontent-mnl1-2.xx&oh=00_AfCjlbG-cvjpdMD4VfaD4PuYBbOFXqRQgqscoLi7Vq_tyA&oe=6642061F" width = 250></td>
+        <td bgcolor= "Silver"colspan="2"><center>Normal</center></td>
+        <td><center>none</center></td>
+        <td><center>none</center></td>
+        <td><center>The Creator</center></td>
+        <td><center>2004-11-25</center></td>
+    </tr>
+
+    <tr>
+        <td><center>67</center></td>
+        <td><center>1</center></td>
+        <td><center>Machamp</center></td>
+        <td><center><img src ="https://archives.bulbagarden.net/media/upload/thumb/8/82/0068Machamp.png/250px-0068Machamp.png"></td>
+        <td bgcolor= "Red"colspan="2"><center>Fighting</center></td>
+        <td><center>Machop</center></td>
+        <td><center>Machoke</center></td>
+        <td><center>Arms</center></td>
+        <td><center>2020-02-27</center></td>
+    </tr>
+
+    <tr>
+       
+        <td><center>94</center></td>
+        <td><center>1</center></td>
+        <td><center>Gengar</center></td>
+        <td><img src ="https://archives.bulbagarden.net/media/upload/thumb/4/47/0094Gengar.png/250px-0094Gengar.png"></td>
+        <td bgcolor= "Purple"><center>Ghost</center></td>
+        <td bgcolor= "violet"><center>Poison</center></td>
+        <td><center>Ghastly</center></td>
+        <td><center>haunter</center></td>
+        <td><center>Smiling Man</center></td>
+        <td><center>2020-10-26</center></td>
+        
+    </tr>
+
+    <tr>
+        
+        <td><center>76</center></td>
+        <td><center>1</center></td>
+        <td><center>Golem</center></td>
+        <td><img src =https://archives.bulbagarden.net/media/upload/thumb/3/38/0076Golem.png/250px-0076Golem.png></td>
+        <td bgcolor= "#4e342e"><center>Rock</center></td>
+        <td bgcolor= "#A52A2A"><center>Ground</center></td>
+        <td><center>Geodude</center></td>
+        <td><center>Graveler</center></td>
+        <td><center>Im Rolling!</center></td>
+        <td><center>2020-10-27</center></td>
+        
+    </tr>
+
+    <tr>
+        
+        <td><center>4</center></td>
+        <td><center>1</center></td>
+        <td><center>Venusaur</center></td>
+        <td><img src =https://archives.bulbagarden.net/media/upload/thumb/6/6b/0003Venusaur.png/250px-0003Venusaur.png></td>
+        <td bgcolor= "violet"><center>Poison</center></td>
+        <td bgcolor= "Green"><center>Grass</center></td>
+        <td><center>Bulbasaur</center></td>
+        <td><center>Ivysaur</center></td>
+        <td><center>The Whipper</center></td>
+        <td><center>2019-06-12</center></td>
+        
+    </tr>
+
+    <tr>
+        
+        <td><center>149</center></td>
+        <td><center>1</center></td>
+        <td><center>Dragonite</center></td>
+        <td><img src =https://archives.bulbagarden.net/media/upload/thumb/1/1c/0149Dragonite.png/250px-0149Dragonite.png></td>
+        <td bgcolor= "#00008B"><center>Dragon</center></td>
+        <td bgcolor= "#ADD8E6"><center>Flying</center></td>
+        <td><center>Dratini</center></td>
+        <td><center>Dragonair</center></td>
+        <td><center>The One!</center></td>
+        <td><center>2021-03-06</center></td>
+        
+    </tr>
+
+    <tr>
+        
+        <td><center>248</center></td>
+        <td><center>2</center></td>
+        <td><center>Tyranitar</center></td>
+        <td><img src =https://archives.bulbagarden.net/media/upload/thumb/0/09/0248Tyranitar.png/250px-0248Tyranitar.png></td>
+        <td bgcolor= "#C4A484"><center>Ground</center></td>
+        <td bgcolor= "#2C2D2D"><center>Dark</center></td>
+        <td><center>Larvitar</center></td>
+        <td><center>Pupitar</center></td>
+        <td><center>GiGA</center></td>
+        <td><center>2021-02-09</center></td>
+        
+    </tr>
+
+    <tr>
+        
+        <td><center>477</center></td>
+        <td><center>4</center></td>
+        <td><center>Dusknoir</center></td>
+        <td><img src =https://archives.bulbagarden.net/media/upload/thumb/4/4c/0477Dusknoir.png/250px-0477Dusknoir.png></td>
+        <td bgcolor= "Purple"colspan="2"><center>Ghost</center></td>
+        <td><center>Duskull</center></td>
+        <td><center>Dusclops</center></td>
+        <td><center>Magician</center></td>
+        <td><center>2022-02-10</center></td>
+        
+    </tr>
+
+    <tr>
+        
+        <td><center>486</center></td>
+        <td><center>4</center></td>
+        <td><center>Regigigas</center></td>
+        <td><img src =https://archives.bulbagarden.net/media/upload/thumb/e/e3/0486Regigigas.png/250px-0486Regigigas.png></td>
+        <td bgcolor= "Silver"colspan="2"><center>Normal</center></td>
+        <td><center>none</center></td>
+        <td><center>none</center></td>
+        <td><center>All Father</center></td>
+        <td><center>2022-12-11</center></td>
+        
+    </tr>
+
+    <tr>
+        
+        <td><center>491</center></td>
+        <td><center>4</center></td>
+        <td><center>Darkrai</center></td>
+        <td><img src =https://archives.bulbagarden.net/media/upload/thumb/8/88/0491Darkrai.png/250px-0491Darkrai.png></td>
+        <td bgcolor= "#2C2D2D"colspan="2"><center>Dark</center></td>
+        <td><center>none</center></td>
+        <td><center>none</center></td>
+        <td><center>VOID</center></td>
+        <td><center>2022-9-11</center></td>
+        
+    </tr>
+
+
+
+
+</form>
+</center>
+</body>
+</html>
+
+
+
