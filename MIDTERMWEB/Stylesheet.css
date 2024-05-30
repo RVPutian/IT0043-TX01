@@ -1,0 +1,166 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(PP.jpg) no-repeat;
+    background-size: cover;
+    
+}
+
+.grid-container{
+    display: flex;
+    display: grid;
+    flex-wrap: warp;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+   
+}
+
+
+
+.grid-item{
+    background: rgb(235, 103, 103);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    flex:1 1 22%;
+    position: relative;
+}
+.grid-item:hover{
+    background: url(meww.jpg) no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.grid-item img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.grid-item span{
+    display: block;
+    margin-top: 10px;
+}
+
+.grid-item .pokeball{
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.grid-item:nth-child(1){
+    background-color: rgb(255, 234, 46);
+}
+.grid-item:nth-child(2){
+    background-color: rgb(105, 233, 67);
+}
+.grid-item:nth-child(3){
+    background-color: rgb(255, 137, 2);
+}
+.grid-item:nth-child(4){
+    background-color: rgb(84, 172, 255);
+}
+.grid-item:nth-child(5){
+    background-color: rgb(184, 108, 108);
+}
+.grid-item:nth-child(6){
+    background-color: rgb(216, 171, 171);
+}
+.grid-item:nth-child(7){
+    background-color: rgb(167, 167, 167);
+}
+.grid-item:nth-child(8){
+    background-color: rgb(129, 70, 70);
+}
+.grid-item:nth-child(9){
+    background-color: rgb(252, 154, 74);
+}
+.grid-item:nth-child(10){
+    background-color: rgb(236, 211, 66);
+}
+.grid-item:nth-child(11){
+    background-color: rgb(231, 87, 224);
+}
+.grid-item:nth-child(12){
+    background-color: rgb(25, 102, 202);
+}
+
+
+@media screen and (max-width: 768px){
+.grid-container{
+    grid-template-columns: repeat(3,1fr);
+}
+.grid-item{
+    text-align: center;
+}
+}
+
+
+@media (max-width: 600px){
+    .grid-container{
+        display: block;
+    }
+    .grid-item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 5px solid #080707;
+        padding: 10px;
+    }
+
+
+
+    .grid-item img{
+        width: 50px;
+        height: 50px;
+
+    }
+    .grid-item span{
+        flex-grow: 1;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .grid-item .pokeball{
+        display: block;
+    }
+}
+@media(max-width: 480px){
+
+    
+    .grid-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .grid-item{
+        display:flex;
+        display:block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .grid-item img{
+        width: 100px;
+        height: 100px;
+    }
+    .grid-item span {
+        display: block;
+        margin-top: 10px;
+    }
+    .grid-item .pokeball{
+        display: none;
+    }
+
+    
+}
+
