@@ -1,0 +1,255 @@
+@import 'settings.css';
+*{
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+:root{
+    --dark: #1b1b1b;
+    --pure: #fff;
+    --blue: #5e9fea;
+    --red: red;
+    --purple: purple;
+    --dpurple: #400740;
+    --ldark: #333;
+}
+
+body{
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+background: var(--dark);
+height: 900px;
+
+/*clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);*/
+}
+
+.logo img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header nav .left a{
+    color:var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    transition:all  0.3s ease;
+}
+
+header nav .left a:hover{
+    color: var(--purple);
+}
+
+
+header nav{
+    padding: 2rem  0;
+
+}
+
+header nav .logo{
+    margin-left: 2rem;
+}
+
+
+
+.main {
+    display: flex;
+    align-items: center;
+    
+}
+
+.main .pic img{
+    width: 350px;
+    height: auto;
+    border-radius: 10%;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.main .intro{
+   font-size: 1.3rem;
+   color: var(--pure);  
+}
+
+.main .intro h3{
+    font-size: 1.3rem;
+    color: var(--purple);
+    margin-bottom: 0.5rem;
+ }
+
+ .main .intro h1{
+    font-size: 4rem;
+    color: var(--purple);
+    margin-bottom: 2rem;
+ }
+
+ .main .intro p{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+ }
+
+ section{
+    padding:  6rem 0;
+    background: var(--dark);
+ }
+
+ section .pic2 img{
+    width: 350px;
+    height: auto;
+    border-radius: 10%;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+section .container h1{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--d);
+}
+
+section .container h1 span{
+    color: var(--purple);
+}
+
+section .container h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 800;
+    
+}
+
+section .container p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.8;
+  
+    
+}
+
+section .about{
+    background-color: #000000;
+
+}
+ 
+
+section .portfolio{
+    background:var(--dark)
+
+}
+
+section .portfolio .card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10rem;
+}
+
+section .portfolio h1{
+    font-size: 5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    color: var(--pure);
+}
+
+section .portfolio p{
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--pure);
+    
+}
+
+section .faq .container .question {
+    border: 5px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin: 50px;
+    border-radius: 50px;
+}
+
+section .faq .container .question h3{
+    font-size: 1.5rem;
+    color: var(--purple);
+}
+
+section .faq .container .question:hover{
+    color: var(--pure);
+    border-width: 7px;
+    border-style: solid;
+    border-color: var(--purple);
+}
+
+section .social .socials{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10rem;
+}
+
+section .social h1{
+    margin-bottom: 100px;
+}
+
+section .social .socials img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+section .social .fweb img {
+    width: 15%;
+    height: 50%;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+section .social .fweb img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+section .social .socials img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+section .contact{
+    background: var(--dark);
+}
+
+section .contact .container {
+    text-align: center;
+    
+}
+
+section .contact .container h3{
+    border: 1px solid var(--purple);
+    padding: 20px;
+    margin-top: 50px;
+    color:var(--pure);
+    border-radius: 9px;
+}
+
+section .contact .container h3:hover{
+    background: var(--purple);
+    color: var(--dark);
+    transition: all 0.3s ease;
+}
+
+section .contact .container h2{
+    color:var(--pure);
+    margin-top: 20px;
+}
